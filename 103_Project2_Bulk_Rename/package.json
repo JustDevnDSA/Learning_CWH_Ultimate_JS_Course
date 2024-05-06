@@ -1,0 +1,12 @@
+{
+  "name": "103_project2_bulk_rename",
+  "version": "1.0.0",
+  "description": "",
+  "main": "103_Project2_Bulk_Rename.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
