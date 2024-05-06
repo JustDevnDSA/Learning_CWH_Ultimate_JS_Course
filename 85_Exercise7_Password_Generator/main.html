@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise-7 : Password Generator</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
+      body {
+        font-family: "Share Tech Mono", monospace;
+        font-weight: 400;
+        font-style: normal;
+        background-color: #050722;
+        /* background: linear-gradient(135deg,#24d824,#3f48bd,#24d824); */
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+
+
+      .container {
+        background: #050722;
+        text-align: center;
+        /* border: 2.5px solid  #00ff00; */
+        border-radius: 15px;
+        padding: 50px;
+        box-shadow: 0 0 10px #00ff00, 0 0 10px #00ff00, 0 0 15px #00ff00,
+          0 0 40px #00ff00
+      }
+
+      .password {
+        font-size: 30px;
+        margin-bottom: 20px;
+      }
+
+      .neon-text {
+        /* color: #fff; */
+        color: #00ff00;
+        /* text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00,
+          0 0 40px #00ff00 */
+      }
+     
+      
+    </style>
+  </head>
+  <body>
+    <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+        <div class="container ">
+            <h1 style="font-size: 40px;">Password Generator</h1>
+            <div class="password neon-text animated bor" id="strongPassword"></div>
+            <div class="password neon-text animated" id="weakPassword"></div>
+            <div class="password neon-text animated" id="superStrongPassword"></div>
+            <div class="password neon-text animated" id="funnyPassword"></div>
+          </div>
+          
+              <div>
+                <h3 style="font-size: 12px; margin-top: 50px; ">Made with help of Chat-GPT</h3>
+              </div>
+    </div>
+    
+  </body>
+
+  <script src="85_Exercise7_Password_Generator.js"></script>
+</html>

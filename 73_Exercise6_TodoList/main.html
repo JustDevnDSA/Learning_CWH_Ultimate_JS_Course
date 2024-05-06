@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List via JavaScript</title>
+</head>
+<body>
+    <h1>Todo List</h1>
+
+    <input id="main"></input>
+    <p id="enter"></p>
+    <button onclick="add()">Add</button>
+    <button onclick="del()">Delete</button>
+   
+
+<!-- REQUIRES MORE FOCUS AND CONC TO MAKE IT WORK PROPERLY SO watch harry bhai solution for more clarity -->
+
+    <!-- <script src="73_Exercise6_TodoList.js"></script> -->
+    <script>
+        const m = document.getElementById('main')
+        function add()  {
+            localStorage.setItem('note',m.value)
+            enter.innerHTML = m.value
+        }
+        function del() {
+            localStorage.removeItem('note')
+        }
+    </script>
+</body>
+</html>
